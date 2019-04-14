@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 
 # Read in data, Trainset and Testset
 train = pd.read_csv('train.csv')
-test = pd.read_csv('test_titanic.csv')
+test = pd.read_csv('test.csv')
 datadescription = train.describe()
 
 
