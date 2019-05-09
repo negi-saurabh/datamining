@@ -250,7 +250,7 @@ def CollectData(df):
     r = [0, 1, 2, 3]
 
     # Names of group and bar width
-    names = ['Machine Learning','Information Retrieval','Statistics','Databases']
+    names = ['ML','IR','Statistics','Databases']
     barWidth = 1
 
     # Create bars
