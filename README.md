@@ -1,9 +1,16 @@
 # datamining
 
 Data Mining Assignment(Basic) Group 45
-Negi, Saurabh [student number: 2635338 ], [vu-netID:sni580], Bleeker, Tom [student number: 2632638 ],[vu-netID:tbr264], and Jakoby, Abdulla [student number:2548344 ],[vu-netID:ajy200]
+
+Negi, Saurabh [student number: 2635338 ] [vu-netID:sni580]
+Bleeker, Tom [student number: 2632638 ] [vu-netID:tbr264]
+Jakoby, Abdulla [student number:2548344 ] [vu-netID:ajy200]
+
+
 Vrije Universiteit Amsterdam
+
 Introduction
+
 This paper gives a brief description of the results we obtained for the first as- signment of the course Data Mining. All programming was done in Python.
 Task 1.A
 In the analysis of the ODI-2019 dataset we decided to start cleaning it properly in order to conduct important data science analysis. The restructure of our DataFrame has been as follows: firstly, converting every closed response columns such as Have you taken a course on Machine Learning? etc into numbers 1, 2 and 3. Secondly, applying fuzzy wuzzy on the course column and group studies together. Thirdly, for the column Birthday we grouped the birth years for each participant of this course.
